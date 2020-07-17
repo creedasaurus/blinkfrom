@@ -10,3 +10,5 @@ The cli should be simple and intuitive. Allowing for the dynamic additions of wo
 # Warnings
 This is a ONE-WAY sync. Local -> Server only. Not the other way around. So don't make precious changes on your remote while `goplop` is running or you risk clobbering your work.
 
+# Extras (maybe someday)
+It would be completely awesome to have a mode that doesn't just log the state of syncronizations, but displays them in a terminal UI kind of way. Think [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard), but maybe a little more simple and stripped down. Maybe use something like [termui](https://github.com/gizak/termui)
